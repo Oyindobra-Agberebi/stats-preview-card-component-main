@@ -20,7 +20,7 @@ body {
     justify-content: center;
 }
 
-.main {
+main {
     max-width: 1000px;
     height: 350px;
     background-color: hsl(244, 38%, 16%);
@@ -118,7 +118,7 @@ body {
 }
 
 @media only screen and (max-width: 580px) {
-    .main {
+    main {
         height: auto;
         grid-template-columns:  1fr;
         text-align: center;
